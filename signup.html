@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Sign Up</title>
+    <style>
+        body {
+            background-image: url('path.jpg'); /* Replace 'your-background-image.jpg' with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+          
+        }
+
+        .signup-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 80px;
+            width: 600px;
+            height: 450px;
+            text-align: center;
+        }
+
+        .signup-container h2 {
+            margin-bottom: 20px;
+            color: #000000;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: #000000;
+            border-color: #000000;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        .btn-primary:hover {
+            background-color: #80ecff;
+            border-color: #6af5ff;
+        }
+`
+        .login-link {
+            margin-top: 20px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<!--header-->
+<div class="container-fluid">
+    <div class="content">
+      <div class="p-5 text-white text-center">
+        <h1></h1>
+      </div>
+      <div collator_get_error_message>
+      <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 signup-container">
+          <div class="signup-header">
+            <h2>Sign Up</h2>
+          </div>
+          <form action="signup1.php" method="post">
+            <div class="form-group">
+              
+              <input type="text" class="form-control" id="name" name="name" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+              
+              <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-dark btn-block">Sign Up</button>
+            </div>
+          </form>
+          <div class="bottom-text"><hr>
+            <p style="color: black;">Already have an account? <a href="login.html">Log in</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Include Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
+
+</body>
+</html>
